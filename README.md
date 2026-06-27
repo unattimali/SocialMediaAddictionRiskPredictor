@@ -89,7 +89,7 @@ Based on the calculated score, users are classified into:
 ```text
 SocialMediaAddictionRiskPredictor/
 │
-├── app.py
+├── socialmedia.py
 ├── data.csv
 ├── requirements.txt
 ├── README.md
