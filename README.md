@@ -1,79 +1,171 @@
-📱 SocialMediaAddictionRiskPredictor
+# 📱 Social Media Addiction Risk Predictor
 
-📖 Introduction
+> **A Streamlit-based web application that predicts social media addiction risk by analyzing daily screen time, sleep, and productivity habits.**
 
-**SocialMediaAddictionRiskPredictor** is a Python-based web application developed using **Streamlit** that helps users understand their level of social media addiction. The application analyzes daily habits such as screen time, sleep duration, and productivity to estimate the user's addiction risk level.
+![Python](https://img.shields.io/badge/Python-3.13-blue?logo=python)
+![Streamlit](https://img.shields.io/badge/Streamlit-Web%20App-red?logo=streamlit)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?logo=pandas)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-orange)
+![Seaborn](https://img.shields.io/badge/Seaborn-Charts-green)
+![License](https://img.shields.io/badge/License-MIT-yellow)
 
-The project aims to create awareness about healthy digital habits by allowing users to track their daily usage, visualize their data through charts, receive personalized risk predictions, and access educational resources to reduce excessive social media usage.
+---
 
-This project demonstrates the use of Python for data analysis, interactive web applications, data visualization, and user-friendly dashboard development.
+# 📖 Introduction
 
- ✨ Features
+Social media has become an essential part of daily life, but excessive usage can negatively affect mental health, sleep quality, and productivity.
 
-* 📊 Interactive dashboard with a modern user interface.
-* 📱 Displays popular social media platforms.
-* 📝 Daily habit tracker to record:
+**Social Media Addiction Risk Predictor** is an interactive web application built using **Python** and **Streamlit** that helps users monitor their daily digital habits. By analyzing factors such as **social media usage**, **sleep duration**, and **productivity level**, the application estimates the user's addiction risk and provides helpful insights to encourage healthier digital behavior.
 
-  * Social media usage (hours)
-  * Sleep duration
-  * Productivity level
-* 🤖 Predicts addiction risk as:
+The project also stores user data, displays visual analytics, motivates users through positive quotes, and spreads awareness about responsible social media usage.
 
-  * Low Risk
-  * Medium Risk
-  * High Risk
-* 📈 Calculates an addiction score based on user inputs.
-* 💾 Stores daily records in a CSV file.
-* 📊 Visualizes user data using:
+---
 
-  * Bar Charts
-  * Scatter Plots
-* 💡 Displays random motivational quotes to encourage healthy digital habits.
-* 🎥 Includes an awareness video about reducing social media addiction.
-* ✅ Provides practical tips for improving digital well-being.
-* 🎨 Responsive and attractive interface built with custom CSS.
+# ✨ Features
 
- 🛠️ Technologies Used
+* 🏠 Beautiful Dashboard
+* 📱 Popular Social Media Platform Icons
+* 📝 Daily Habit Tracker
+* 🤖 Addiction Risk Prediction
+* 📊 Interactive Data Analysis
+* 📈 Bar Chart Visualization
+* 📉 Scatter Plot Analysis
+* 💾 CSV Data Storage
+* 💡 Random Motivational Quotes
+* 🎬 Awareness Video
+* ✅ Digital Wellness Tips
+* 🎨 Modern Responsive UI using Custom CSS
+
+---
+
+# ⚙️ How It Works
+
+1. Open the application.
+2. Enter:
+
+   * 📱 Daily social media usage
+   * 😴 Sleep duration
+   * ⚡ Productivity level
+3. Save your daily data.
+4. Predict your addiction risk.
+5. View your addiction score.
+6. Analyze previous records using graphs.
+7. Follow awareness tips to improve your digital lifestyle.
+
+---
+
+# 📊 Risk Prediction Logic
+
+The application calculates an addiction score using:
+
+* Daily Social Media Usage
+* Sleep Hours
+* Productivity Level
+
+Based on the calculated score, users are classified into:
+
+| Score  | Risk Level     |
+| ------ | -------------- |
+| Low    | ✅ Low Risk     |
+| Medium | ⚠️ Medium Risk |
+| High   | 🚨 High Risk   |
+
+---
+
+# 🛠 Technologies Used
 
 * Python
 * Streamlit
 * Pandas
 * Matplotlib
 * Seaborn
-* HTML & CSS (Custom Styling)
+* HTML
+* CSS
 
- ⚙️ How It Works
+---
 
-1. Open the application.
-2. Enter your daily social media usage, sleep hours, and productivity level.
-3. Save your daily record.
-4. Use the Predictor to calculate your addiction score.
-5. View your risk level (Low, Medium, or High).
-6. Analyze your historical data through interactive charts.
-7. Watch the awareness video and follow the suggested tips to maintain healthy digital habits.
+# 📂 Project Structure
 
- 🎯 Project Objectives
+```text
+SocialMediaAddictionRiskPredictor/
+│
+├── app.py
+├── data.csv
+├── requirements.txt
+├── README.md
+└── screenshots/
+    ├── dashboard.png
+    ├── tracker.png
+    ├── predictor.png
+    ├── analysis.png
+    └── awareness.png
+```
 
-* Raise awareness about social media addiction.
+---
+
+# 🚀 Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/your-username/SocialMediaAddictionRiskPredictor.git
+```
+
+Move into the project folder
+
+```bash
+cd SocialMediaAddictionRiskPredictor
+```
+
+Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the application
+
+```bash
+streamlit run app.py
+```
+
+
+
+# 🎯 Project Objectives
+
+* Promote healthy digital habits.
+* Predict social media addiction risk.
 * Encourage balanced screen time.
-* Help users monitor daily digital habits.
-* Provide simple data-driven insights.
-* Promote healthier lifestyles through self-monitoring.
+* Visualize user behavior using charts.
+* Raise awareness about digital well-being.
 
+---
 
-🚀 Future Improvements
+# 🔮 Future Improvements
 
-* User login and authentication.
-* Machine Learning model for more accurate predictions.
-* Weekly and monthly analytics.
-* Email reminders for excessive usage.
-* Mobile-friendly interface.
-* Database integration (MySQL or SQLite).
-* Downloadable PDF reports.
-* Personalized recommendations using AI.
+* 🔐 User Login System
+* 🤖 Machine Learning Model
+* 📅 Weekly & Monthly Reports
+* 📱 Mobile-Friendly Design
+* 🗄 Database Integration (MySQL)
+* 📄 PDF Report Generation
+* 📧 Email Notifications
+* ☁ Cloud Deployment
 
+---
 
+# 👨‍💻 Author
 
+🎓 BCA Student
 
+💻 Python Developer
 
-## ⭐ If you found this project useful, don't forget to Star the repository!
+🚀 Learning AI, Machine Learning & Data Analytics
+
+---
+
+# ⭐ Support
+
+If you found this project useful, please consider giving it a ⭐ on GitHub.
+
+It motivates me to build more useful open-source projects.
